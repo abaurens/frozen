@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{89AF369E-F58E-B539-FEA6-40106A051C9B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\frozen">
+      <UniqueIdentifier>{ECEE634D-D8BC-5753-C150-C879ADBD33B8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\frozen\bits">
+      <UniqueIdentifier>{4D2D1479-B98E-F186-42FC-3739AE5C2846}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\frozen\algorithm.h">
+      <Filter>include\frozen</Filter>
+    </ClInclude>
+    <ClInclude Include="include\frozen\bits\algorithms.h">
+      <Filter>include\frozen\bits</Filter>
+    </ClInclude>
+    <ClInclude Include="include\frozen\bits\basic_types.h">
+      <Filter>include\frozen\bits</Filter>
+    </ClInclude>
+    <ClInclude Include="include\frozen\bits\constexpr_assert.h">
+      <Filter>include\frozen\bits</Filter>
+    </ClInclude>
+    <ClInclude Include="include\frozen\bits\defines.h">
+      <Filter>include\frozen\bits</Filter>
+    </ClInclude>
+    <ClInclude Include="include\frozen\bits\elsa.h">
+      <Filter>include\frozen\bits</Filter>
+    </ClInclude>
+    <ClInclude Include="include\frozen\bits\elsa_std.h">
+      <Filter>include\frozen\bits</Filter>
+    </ClInclude>
+    <ClInclude Include="include\frozen\bits\exceptions.h">
+      <Filter>include\frozen\bits</Filter>
+    </ClInclude>
+    <ClInclude Include="include\frozen\bits\hash_string.h">
+      <Filter>include\frozen\bits</Filter>
+    </ClInclude>
+    <ClInclude Include="include\frozen\bits\mpl.h">
+      <Filter>include\frozen\bits</Filter>
+    </ClInclude>
+    <ClInclude Include="include\frozen\bits\pmh.h">
+      <Filter>include\frozen\bits</Filter>
+    </ClInclude>
+    <ClInclude Include="include\frozen\bits\version.h">
+      <Filter>include\frozen\bits</Filter>
+    </ClInclude>
+    <ClInclude Include="include\frozen\map.h">
+      <Filter>include\frozen</Filter>
+    </ClInclude>
+    <ClInclude Include="include\frozen\random.h">
+      <Filter>include\frozen</Filter>
+    </ClInclude>
+    <ClInclude Include="include\frozen\set.h">
+      <Filter>include\frozen</Filter>
+    </ClInclude>
+    <ClInclude Include="include\frozen\string.h">
+      <Filter>include\frozen</Filter>
+    </ClInclude>
+    <ClInclude Include="include\frozen\unordered_map.h">
+      <Filter>include\frozen</Filter>
+    </ClInclude>
+    <ClInclude Include="include\frozen\unordered_set.h">
+      <Filter>include\frozen</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="premake5.lua" />
+  </ItemGroup>
+</Project>
